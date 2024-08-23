@@ -18,5 +18,17 @@ pragma solidity 0.8.24;
          currentState = contractState.Active; //Set the initial state to Active.
          escrowAgent = msg.sender; //Set the escrowAgent to the owner of the contract.
  }
+              uint public isDispute;
+              uint public feePercentage;
+              uint public Deadline;
+              uint public amountPaidInEscrow;
+
+//3. Implement deposit function 
+       function deposit () external  payable {
+              require (msg.sender == buyer, "Only buyer can deposit funds");
+              require(currentState == contractState.Active, "Contract must be in active state to deposit funds");
+              require(msg.value>0, "Amount must be greater than zero");
+              
+       }
 
  }

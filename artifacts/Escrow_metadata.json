@@ -12,6 +12,32 @@
 			},
 			{
 				"inputs": [],
+				"name": "Deadline",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "amountPaidInEscrow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "buyer",
 				"outputs": [
 					{
@@ -38,6 +64,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "escrowAgent",
 				"outputs": [
 					{
@@ -52,6 +85,32 @@
 			{
 				"inputs": [],
 				"name": "escrowAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "feePercentage",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isDispute",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -104,10 +163,10 @@
 	},
 	"sources": {
 		"Escrow smart contract.sol": {
-			"keccak256": "0xb18612493709a5d11c72c3e25b7c340a573585b756c38070d5061559803f1b54",
+			"keccak256": "0x749169dd5cf2f767e97b72ae6369442ce03d7a9b24dd055b71840e077fe70ba1",
 			"urls": [
-				"bzz-raw://dd50284ac2defcb7da7b57453712c0d95ad83bb679f34d9bcaaeef90a5ac06bf",
-				"dweb:/ipfs/QmTmpFjYzZgrP1mYu3q4vwsAw4NxaqaDoC4YshGGx6mYqY"
+				"bzz-raw://fbcc8c50161fde73d05e80b2357a72f31fbb9093cd4a9391b76e463cbb3b0836",
+				"dweb:/ipfs/QmcmtQBLMqsfSavT1q3mzcKBLvKSpGGEquaPZJeC5zBNFg"
 			]
 		}
 	},
