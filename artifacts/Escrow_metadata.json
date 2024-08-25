@@ -115,6 +115,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "complete",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "confirmDeliverlyByBuyer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -201,6 +208,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "resolveDispute",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "seller",
 				"outputs": [
 					{
@@ -254,10 +268,10 @@
 	},
 	"sources": {
 		"Escrow smart contract.sol": {
-			"keccak256": "0xbbbb2c051cbff7181e4790304b4e09d773465b5e523e56e51b870c13cd863bc9",
+			"keccak256": "0x37b2cd5e039551553fdd579a823185e7c6f265a0112e9c673a23fac5018daa9b",
 			"urls": [
-				"bzz-raw://7fb096ea3c0773fefc8a15c5e793d219f00b8e007afa9b64666973b4e90bc0da",
-				"dweb:/ipfs/QmZ6x2Mk5XRYqpDi5dD9vaVhMJ3Xeeeme7g97oDaUmpbH3"
+				"bzz-raw://e728522b9d19c31c5f35ad30919ba0f47ad116830dcb327ee0a4590f84d1a34a",
+				"dweb:/ipfs/QmPMAA5R3QCQKLUmtYPP9vAeBtCznNBWDnS35rhuoJop8k"
 			]
 		}
 	},

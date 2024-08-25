@@ -74,9 +74,36 @@ pragma solidity 0.8.25;
         escrowAmount = 0; // Reset the escrow amount
         emit FundsReleased(seller, escrowAmount); // Emit event for funds release
     }
+    
 
 
-//6. 
+//6. Implement dispute solution
+       function resolveDispute () external payable{
+              require(msg.sender == buyer," Only buyer can dispute");
+              require(currentState == contractState.Active, "Contract must be active");
+              require(msg.value == amountPaidInEscrow, "Amount paid in escrow must match");
+              require(buyerConfirmed, "Buyer must have confirmed delivery");
+              require(isDispute ==0,"Dispute have been raised");
+              isDispute = 1; //
+
+       }
+//7.Implement contract completion
+       function complete() external payable{
+            
+              require(msg.sender ==seller,"Only seller can complete");
+              require(currentState ==contractState.Active, "Contract must be active");
+              require(msg.value == amountPaidInEscrow, "Amount paid in escrow must match");
+              require(sellerConfirmed, "Seller must have confirmed delivery");
+              require(isDispute == 0,"Dispute have been raised"); 
+
+                isDispute=1;
+
+       //set contract state to close and transfer funds to seller
+              currentState =contractState.Closed;
+              payable(seller).transfer(amountPaidInEscrow); //transfer funds
+              emit FundsReleased(seller, amountPaidInEscrow); // Emit event for funds release
+       }
+
 
 
          
