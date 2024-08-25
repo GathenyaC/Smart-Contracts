@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,6 +9,57 @@
 				"inputs": [],
 				"stateMutability": "payable",
 				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "by",
+						"type": "address"
+					}
+				],
+				"name": "DisputeRaised",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "winner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "DisputeResolved",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "FundsReleased",
+				"type": "event"
 			},
 			{
 				"inputs": [],
@@ -47,6 +98,33 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "buyerConfirmed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "confirmDeliverlyByBuyer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "confirmDelivery",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -133,6 +211,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sellerConfirmed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -150,7 +241,7 @@
 		"compilationTarget": {
 			"Escrow smart contract.sol": "Escrow"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -163,10 +254,10 @@
 	},
 	"sources": {
 		"Escrow smart contract.sol": {
-			"keccak256": "0x749169dd5cf2f767e97b72ae6369442ce03d7a9b24dd055b71840e077fe70ba1",
+			"keccak256": "0xbbbb2c051cbff7181e4790304b4e09d773465b5e523e56e51b870c13cd863bc9",
 			"urls": [
-				"bzz-raw://fbcc8c50161fde73d05e80b2357a72f31fbb9093cd4a9391b76e463cbb3b0836",
-				"dweb:/ipfs/QmcmtQBLMqsfSavT1q3mzcKBLvKSpGGEquaPZJeC5zBNFg"
+				"bzz-raw://7fb096ea3c0773fefc8a15c5e793d219f00b8e007afa9b64666973b4e90bc0da",
+				"dweb:/ipfs/QmZ6x2Mk5XRYqpDi5dD9vaVhMJ3Xeeeme7g97oDaUmpbH3"
 			]
 		}
 	},
