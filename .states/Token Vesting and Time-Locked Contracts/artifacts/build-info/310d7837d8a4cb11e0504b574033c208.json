@@ -1,0 +1,332 @@
+{
+	"id": "310d7837d8a4cb11e0504b574033c208",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.24",
+	"solcLongVersion": "0.8.24+commit.e11b9ed9",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			".states/Token Vesting and Time-Locked Contracts/token vesting.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.24;\r\n    \r\n    contract TokenVesting{\r\n        \r\n\r\n    }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			".states/Token Vesting and Time-Locked Contracts/token vesting.sol": {
+				"TokenVesting": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \".states/Token Vesting and Time-Locked Contracts/token vesting.sol\":69:110  contract TokenVesting{... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \".states/Token Vesting and Time-Locked Contracts/token vesting.sol\":69:110  contract TokenVesting{... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220fe4b0f00e431b3862f48df0458fea44ed1594ddea5e09203a3026058f0c049d964736f6c63430008180033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea2646970667358221220fe4b0f00e431b3862f48df0458fea44ed1594ddea5e09203a3026058f0c049d964736f6c63430008180033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 INVALID 0x4B 0xF STOP 0xE4 BALANCE 0xB3 DUP7 0x2F BASEFEE 0xDF DIV PC INVALID LOG4 0x4E 0xD1 MSIZE 0x4D 0xDE 0xA5 0xE0 SWAP3 SUB LOG3 MUL PUSH1 0x58 CREATE 0xC0 BLOBHASH 0xD9 PUSH5 0x736F6C6343 STOP ADDMOD XOR STOP CALLER ",
+							"sourceMap": "69:41:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "60806040525f80fdfea2646970667358221220fe4b0f00e431b3862f48df0458fea44ed1594ddea5e09203a3026058f0c049d964736f6c63430008180033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 INVALID 0x4B 0xF STOP 0xE4 BALANCE 0xB3 DUP7 0x2F BASEFEE 0xDF DIV PC INVALID LOG4 0x4E 0xD1 MSIZE 0x4D 0xDE 0xA5 0xE0 SWAP3 SUB LOG3 MUL PUSH1 0x58 CREATE 0xC0 BLOBHASH 0xD9 PUSH5 0x736F6C6343 STOP ADDMOD XOR STOP CALLER ",
+							"sourceMap": "69:41:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12400",
+								"executionCost": "64",
+								"totalCost": "12464"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 69,
+									"end": 110,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220fe4b0f00e431b3862f48df0458fea44ed1594ddea5e09203a3026058f0c049d964736f6c63430008180033",
+									".code": [
+										{
+											"begin": 69,
+											"end": 110,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 69,
+											"end": 110,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 69,
+											"end": 110,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 69,
+											"end": 110,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 69,
+											"end": 110,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 69,
+											"end": 110,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								".states/Token Vesting and Time-Locked Contracts/token vesting.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.24+commit.e11b9ed9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\".states/Token Vesting and Time-Locked Contracts/token vesting.sol\":\"TokenVesting\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\".states/Token Vesting and Time-Locked Contracts/token vesting.sol\":{\"keccak256\":\"0xaccfb7ef832873f0ae23970e0afa9b1a4334c9eb25be6b5cc3f0633b1f4ab419\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4083d92f4b8bfc654708697a83c0bf25c240c176ae1704e79b8c5921f6174571\",\"dweb:/ipfs/Qma3D6G2dgm1C1myS6LvPwVteaTEU3qB9RGpgNMkfq1fz9\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			".states/Token Vesting and Time-Locked Contracts/token vesting.sol": {
+				"ast": {
+					"absolutePath": ".states/Token Vesting and Time-Locked Contracts/token vesting.sol",
+					"exportedSymbols": {
+						"TokenVesting": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".24"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:24:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "TokenVesting",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "TokenVesting",
+							"nameLocation": "78:12:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "69:41:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "33:77:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

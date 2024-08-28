@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".states/Token Vesting and Time-Locked Contracts/token vesting.sol": "TokenVesting"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".states/Token Vesting and Time-Locked Contracts/token vesting.sol": {
+			"keccak256": "0xaccfb7ef832873f0ae23970e0afa9b1a4334c9eb25be6b5cc3f0633b1f4ab419",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4083d92f4b8bfc654708697a83c0bf25c240c176ae1704e79b8c5921f6174571",
+				"dweb:/ipfs/Qma3D6G2dgm1C1myS6LvPwVteaTEU3qB9RGpgNMkfq1fz9"
+			]
+		}
+	},
+	"version": 1
+}
