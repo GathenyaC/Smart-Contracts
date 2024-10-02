@@ -2,7 +2,7 @@
 <h3 align="center">Full stack & blockchain developer  | Passionate about building innovative solutions for a better world 🚀 </h3>
 
 
-![Alt Text](<iframe src="https://giphy.com/embed/yeE6B8nEKcTMWWvBzD" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/PudgyMemez-work-lets-go-build-yeE6B8nEKcTMWWvBzD">via GIPHY</a></p>)
+![Alt Text](https://media.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif)
 
   <p><a href="https://giphy.com/gifs/pudgypenguins-data-code-coding-2IudUHdI075HL02Pkk">viaGIPHY</a></p>
 
@@ -15,7 +15,6 @@
 
 - 🌱 I’m currently learning **Web3.js, Solidity development,  Smart Contracts**
 
-- 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/koppala-jayanth-71a8091b9/](https://www.linkedin.com/in/koppala-jayanth-71a8091b9/)
 
 - 💬 Ask me about **react, solidity , next.js, Node.js, Mongodb & Express**
 
