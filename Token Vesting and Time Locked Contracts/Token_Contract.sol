@@ -4,7 +4,7 @@ pragma solidity 0.8.25;
  
   import "@openzeppelin/contracts/token/ERC20.sol";
   import "openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
-  import "@openzeppelin/contracts/access/Ownable.sol";
+  import "@openzeppelin/contracts/access/Ownable.sol";  
 
 
     contract GovernanceToken is ERC20,ERC20Votes, Ownable { 

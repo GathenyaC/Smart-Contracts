@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getIPFSHash",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ipfsHash",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ipfsHash",
+						"type": "string"
+					}
+				],
+				"name": "setIPFSHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Token Vesting and Time Locked Contracts/new.sol": "IPFSStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Token Vesting and Time Locked Contracts/new.sol": {
+			"keccak256": "0x7e9e5f3f7c5bbb94af4abe6f9e442a8d579b1b1063cf74fde419ea0336660879",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b7f7c354bd86c5f0c7cd12bb21deba7f8e003d9a82bcb41377be426b85580ea",
+				"dweb:/ipfs/QmU5WEV6aaTaCbuMPjkZXrgRgdAswG2GBRQ8GftdJhwFsP"
+			]
+		}
+	},
+	"version": 1
+}
